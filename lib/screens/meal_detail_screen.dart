@@ -10,7 +10,6 @@ class MealDetailScreen extends ConsumerWidget {
   });
 
   final Meal meal;
-
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final favoriteMeals = ref.watch(favoriteMealsProvider);
